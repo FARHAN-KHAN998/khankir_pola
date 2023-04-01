@@ -99,7 +99,7 @@ def cpython():
     print("\033[1;37m[\033[38;5;196m!\033[1;37m]\033[38;5;196m FILE NOT FOUND TRY AGAIN")
     time.sleep(1)
     cpython()
-  os.system(f"cythonize -i -2 {file}> /dev/null")
+  os.system(f"cythonize -i -2 {file} > /dev/null")
 #  os.system("clear")
   print("""\033[1;37m
 
